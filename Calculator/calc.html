@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calc.css" >
+    <script src="calc.js"></script>
+   
+</head>
+<body class="body">  
+
+      
+        <div class="main">
+            <div class="row1" >
+                <input id="out" name="display" type="text" name="display" readonly="">
+                
+                 <input id="clr" type="button" class="buttons"  onclick="clr()"  value="C"> 
+            </div>
+            
+            <div class="row2" >
+                
+        <input class="buttons"  onclick="display('1')" type="button" value="1">
+        <input class="buttons "   onclick="display('2')" type="button" value="2"> 
+        <input class="buttons "   onclick="display('3')"type="button" value="3"> 
+        <input class="buttons "   onclick="display('/')"type="button" value="/"> 
+            </div>
+           
+            <div class="row3" >
+        <input class="buttons " onclick="display('4')" type="button" value="4">
+        <input class="buttons "   onclick="display('5')" type="button" value="5"> 
+        <input class="buttons "   onclick="display('6')" type="button" value="6"> 
+        <input class="buttons "   onclick="display('*')" type="button" value="*"> 
+            </div>
+           
+            <div class="row4">
+        <input class="buttons "  onclick="display('7')" type="button" value="7">
+        <input class="buttons "   onclick="display('8')" type="button" value="8"> 
+        <input class="buttons "   onclick="display('9')" type="button" value="9"> 
+        <input class="buttons "   onclick="display('-')" type="button" value="-"> 
+            </div>
+           
+            <div class="row5">
+                <input class="buttons "   onclick="display('0')" type="button" value="0">
+                <input class="buttons "   onclick="display('.')" type="button" value="."> 
+                <input class="buttons "   onclick="calculate()" type="button" value="="> 
+                <input class="buttons "  onclick="display('+')" type="button" value="+"> 
+            </div>
+        </div>
+        
+     
+
+        
+</body>
+</html>
